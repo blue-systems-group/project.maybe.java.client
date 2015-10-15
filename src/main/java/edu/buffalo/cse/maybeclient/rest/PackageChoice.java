@@ -1,0 +1,11 @@
+package edu.buffalo.cse.maybeclient.rest;
+
+import java.util.HashMap;
+
+/**
+ * Created by xcv58 on 10/15/15.
+ */
+public class PackageChoice {
+    public String packageName;
+    public HashMap<String, Choice> labelJSON;
+}
